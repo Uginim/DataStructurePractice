@@ -10,11 +10,19 @@ function solution(n, weak, dist) {
     let coverage = weak.copyWithin(0);
     let working = dist.copyWithin(0);
     coverage.fill(false);working.fill(false);
+    while( coverage.some((value)=>false)){
+
+    }
     // console.log(coverage);
     
 
     return answer;
-
+}
+function getNumWeakCoverage(weak,idx,isDirLeft,distNum) {
+    weak.forEach((weakPoint,idx)=>{
+        
+    } );
+    
 }
 
 console.log(solution(12, [1, 5, 6, 10], [1, 2, 3, 4] ));
